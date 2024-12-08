@@ -62,7 +62,7 @@
 // module.exports = { uploadAndUpdateImage };
 
 const cloudinary = require('cloudinary').v2;
-const { ProductModel } = require("../mongo/ProductModel");
+const { ProductModel } = require("../Mongo/ProductModel");
 
 // Middleware to upload image and update the product
 const uploadAndUpdateImage = async (req, res, next) => {

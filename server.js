@@ -9,7 +9,7 @@ const { GetProducts } = require('./src/Middleware/GetProducts.js');
 const { HandelUpdateProducts } = require('./src/Middleware/HandelUpdateProducts.js');
 const { handleDeleteProduct } = require('./src/Middleware/DeleteProducts.js');
 const { countUsers } = require('./src/Mongo/UserModel.js');
-const { countProducts, ProductModel } = require('./src/mongo/ProductModel.js');
+const { countProducts, ProductModel } = require('./src/Mongo/ProductModel.js');
 const { HandelOrders, countOrders } = require('./src/Middleware/HandelOrders.js');
 const { GetUserInfo } = require('./src/Middleware/GetUserInfo.js')
 

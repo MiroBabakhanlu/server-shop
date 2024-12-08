@@ -1,7 +1,7 @@
 // const ProductModel = require("../mongo/ProductModel");
 // const UserModel = require("../Mongo/UserModel");
-const { ProductModel } = require("../mongo/ProductModel");
 const { UserModel } = require("../Mongo/UserModel");
+const { ProductModel } = require("../Mongo/ProductModel");
 
 
 const checkAuthAdmin = async (req, res, next) => {

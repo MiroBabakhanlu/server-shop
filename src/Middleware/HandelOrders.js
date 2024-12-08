@@ -1,4 +1,4 @@
-const { ProductModel } = require("../mongo/ProductModel");
+const { ProductModel } = require("../Mongo/ProductModel");
 const { OrderModel } = require('../Mongo/OrderModel');
 const { BookingModel } = require("../Mongo/BookingModel");
 
