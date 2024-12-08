@@ -191,6 +191,7 @@ app.get('/api/check-date-capacity', checkAuth, checkingCapacity)
 
 
 
+const { port } = require('./liara.json')
 
 
 app.use((err, req, res, next) => {
@@ -198,7 +199,7 @@ app.use((err, req, res, next) => {
     const status = err.status || 500;
     res.status(status).json({ message: err.message || 'Internal Server Error' });
 });
-app.listen(process.env.PORT, () => {
+app.listen(port, () => {
     console.log('server is on');
 })
 
